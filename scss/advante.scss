@@ -1,0 +1,49 @@
+.advante{
+  background-color: $sectBg2;
+  padding: 80px 0;
+  &__over-title{
+    margin-bottom: 16px;
+  }
+  &__title{
+    margin-bottom: 48px;
+  }
+}
+.advante__list{
+  flex-wrap: wrap;
+  align-items: stretch;
+  &-item{
+    border: none;
+    margin-bottom: 32px;
+    margin-right: 26px;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+
+  &-item-image{
+    margin-bottom: 20px;
+  }
+  &-item-title{
+    font-family: $primaryFont;
+    color: $strongTxt;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+
+    margin: 0 0 16px 0;
+  }
+  &-item-desc{
+    max-width: 336px;
+    width: 100%;
+
+    font-family: $primaryFont;
+    color: $desc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+
+    margin: 0;
+  }
+}

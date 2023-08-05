@@ -1,0 +1,80 @@
+.footer{
+  font-family: $primaryFont;
+  background-color: $sectBg2;
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 100px 0;
+  }
+  &__logo{
+    margin-bottom: 16px;
+  }
+  &__info-desc{
+    color: $strongTxt;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.04px;
+
+    margin: 0 0 24px 0;
+    max-width: 345px;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+  }
+  &__form-input{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.footer__table{
+  text-align: left;
+  margin: -16px -80px;
+  border-spacing: 80px 16px;
+  &-title{
+    color: $footerStrong;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  &-desc-link{
+    text-decoration: none;
+    color: $footerTxt;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: all 0.2s ease;
+    @media(hover: hover){
+      &:hover{
+        color: $primary;
+      }
+    }
+  }
+}
+
+.footer__social-media-title{
+  color: $footerStrong;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0 0 16px 0;
+}
+.footer__social-media-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.footer__social-media-item{
+  margin-right: 16px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+.footer__social-media-img{
+  height: 40px;
+  width: 40px;
+}

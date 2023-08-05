@@ -1,0 +1,60 @@
+.customers{
+  padding-bottom: 120px;
+  &__over-title{
+    margin-bottom: 16px;
+  }
+  &__title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+}
+.customers__quote{
+  margin: 0;
+  color: $strongTxt;
+  font-family: $primaryFont;
+  &-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.045px;
+    max-width: 312px;
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+  &-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04px;
+    margin: 0 0 26px 0;
+  }
+}
+
+.customers__quote-author{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: $primaryFont;
+  &-image{
+    margin-right: 14px;
+  }
+  &-name{
+    color: $footerStrong;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    margin: 0 0 4px 0;
+    font-style: normal;
+  }
+  &-desc{
+    color: #767676;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
+}

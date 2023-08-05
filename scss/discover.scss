@@ -1,0 +1,75 @@
+.discover{
+  background-color: $sectBg1;
+  padding: 120px 0;
+  &__over-title{
+    margin-bottom: 16px;
+  }
+  &__title{
+    margin-bottom: 16px;
+  }
+  &__desc-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 48px;
+  }
+  &__desc{
+    max-width: 492px;
+  }
+}
+
+.discover-list__item-image{
+  margin-bottom: 16px;
+  text-align: center;
+  & img{
+    height: 238px;
+  }
+}
+.discover-list__item-title{
+  color: $strongTxt;
+  font-family: $secondaryFont;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.06px;
+  margin: 0 0 8px 0;
+}
+.discover-list__item-desc{
+  color: #A6A6A6;
+  font-family: $primaryFont;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.04px;
+  margin: 0 0 16px 0;
+}
+.discover-list__item-price-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.discover-list__item-price{
+  color: $primary;
+  font-family: $primaryFont;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.06px;
+  margin: 0;
+}
+.discover-list__item-area{
+  display: inline-block;
+  padding: 8px 12px;
+  color: #A6A6A6;
+  font-family: $primaryFont;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+  background-color: #F5F5F5;
+  margin: 0;
+}
+.discover-list__item-area span{
+  color: $strongTxt;
+}
